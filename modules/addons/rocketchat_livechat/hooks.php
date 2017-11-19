@@ -24,7 +24,7 @@ add_hook('ClientAreaFooterOutput', 1, function($vars) {
 (function(w, d, s, u) {
 	w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
 	var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
-	j.async = true; j.src = "' . $url . '/packages/rocketchat_livechat/assets/rocketchat-livechat.min.js";
+	j.async = true; j.src = "' . $url . '/packages/rocketchat_livechat/assets/rocketchat-livechat.min.js?_=201702160944";
 	h.parentNode.insertBefore(j, h);
 })(window, document, "script", "' . $url . '/livechat");
 </script>
